@@ -23,325 +23,346 @@
   </head>
 
   <body>
-    <!-- Creamos la barra de navegacion -->
-    <nav class="navbar navbar-expand-lg navbar-light fixe-top">
-      <div class="container">
-        <a href="index.html" class="navbar-brand"
-          ><img src="img/techstorelogofinal.png" width="90px" height="90px"
-        /></a>
-        <!-- Creamos el boton tipo hamburguesa para que despliegue nuestro menu en modo responsive -->
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbar-start"
-          aria-controls="navbar-start"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
+    <header>
+      <!-- Creamos la barra de navegacion -->
+      <nav class="navbar navbar-expand-lg navbar-light fixe-top">
+        <div class="container">
+          <a href="index.html" class="navbar-brand"
+            ><img src="img/techstorelogofinal.png" width="90px" height="90px"
+          /></a>
 
-        <div class="collapse navbar-collapse" id="navbar-start">
-          <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-            <li class="class nav-item">
-              <a href="index.html" class="class nav-link" href="#">Home</a>
-            </li>
-            <li class="class nav-item">
-              <a href="laptops.html" class="class nav-link">Laptops</a>
-            </li>
-            <li class="class nav-item">
-              <a href="pcs.html" class="class nav-link">Computadoras</a>
-            </li>
-            <li class="class nav-item">
-              <a href="accesorios.html" class="class nav-link">Accesorios</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-    <!-- Creamos un carrusel de imagenes -->
-    <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-indicators">
-        <button
-          type="button"
-          data-bs-target="#carouselE1"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselE1"
-          data-bs-slide-to="1"
-          aria-current="true"
-          aria-label="Slide 2"
-        ></button>
-        <button
-          type="button"
-          data-bs-target="#carouselE1"
-          data-bs-slide-to="2"
-          aria-current="true"
-          aria-label="Slide 3"
-        ></button>
-      </div>
-      <!-- Implementamos las imagenes y el texto al carrusel  -->
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/laptops.jpg" class="d-block w-100" alt="" />
-          <div class="carousel-caption">
-            <h5>Laptops</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              aspernatur, temporibus fugit minima magnam, consequatur saepe vel
-              quos dolorem ab ut quisquam quasi a iusto distinctio iste impedit,
-              aliquid repudiandae?
-            </p>
-            <p><a href="laptops.html" class="btn btn-primary mt-3">Ver</a></p>
+          <!-- Creamos el boton tipo hamburguesa para que despliegue nuestro menu en modo responsive -->
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbar-start"
+            aria-controls="navbar-start"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse" id="navbar-start">
+            <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+              <li class="class nav-item">
+                <a href="index.html" class="class nav-link" href="#">Home</a>
+              </li>
+              <li class="class nav-item">
+                <a href="laptops.html" class="class nav-link">Laptops</a>
+              </li>
+              <li class="class nav-item">
+                <a href="pcs.html" class="class nav-link">Computadoras</a>
+              </li>
+              <li class="class nav-item">
+                <a href="accesorios.html" class="class nav-link">Accesorios</a>
+              </li>
+            </ul>
           </div>
         </div>
-
-        <div class="carousel-item">
-          <img src="img/computadores.jpg" class="d-block w-100" alt="" />
-          <div class="carousel-caption">
-            <h5>COMPUTADORAS</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              aspernatur, temporibus fugit minima magnam, consequatur saepe vel
-              quos dolorem ab ut quisquam quasi a iusto distinctio iste impedit,
-              aliquid repudiandae?
-            </p>
-            <p><a href="pcs.html" class="btn btn-primary mt-3">Ver</a></p>
-          </div>
+      </nav>
+    </header>
+    <main>
+      <!-- Creamos un carrusel de imagenes -->
+      <div id="carouselE1" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselE1"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselE1"
+            data-bs-slide-to="1"
+            aria-current="true"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselE1"
+            data-bs-slide-to="2"
+            aria-current="true"
+            aria-label="Slide 3"
+          ></button>
         </div>
-
-        <div class="carousel-item">
-          <img src="img/accesorios.png" class="d-block w-100" alt="" />
-          <div class="carousel-caption">
-            <h5>ACCESORIOS</h5>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
-              aspernatur, temporibus fugit minima magnam, consequatur saepe vel
-              quos dolorem ab ut quisquam quasi a iusto distinctio iste impedit,
-              aliquid repudiandae?
-            </p>
-            <p>
-              <a href="accesorios.html" class="btn btn-primary mt-3">Ver</a>
-            </p>
-          </div>
-        </div>
-      </div>
-      <!-- Creamos botones para avanzar y retroceder los slides del carrusel -->
-      <button
-        class="carousel-control-prev"
-        type="button"
-        data-bs-target="#carouselE1"
-        data-bs-slide="prev"
-      >
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-
-      <button
-        class="carousel-control-next"
-        type="button"
-        data-bs-target="#carouselE1"
-        data-bs-slide="next"
-      >
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Creamos la seccion de servicios -->
-    <section class="services">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-4 mb-3">
-            <div class="card text-white text-center bg-g pb-2">
-              <div class="card-body">
-                <h3 class="card-tittle">Garantia Efectiva</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique voluptatem commodi, aliquid qui excepturi hic nobis
-                  ad iste amet ducimus tempora porro fugiat repellendus odit
-                  quam voluptates deserunt neque nihil.
-                </p>
-                <button class="btn bg-primary text-white">Leer mas</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-4 mb-3">
-            <div class="card text-white text-center bg-r pb-2">
-              <div class="card-body">
-                <h3 class="card-tittle">Alto Rendimiento</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique voluptatem commodi, aliquid qui excepturi hic nobis
-                  ad iste amet ducimus tempora porro fugiat repellendus odit
-                  quam voluptates deserunt neque nihil.
-                </p>
-                <button class="btn bg-primary text-white">Leer mas</button>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-4 mb-3">
-            <div class="card text-white text-center bg-c pb-2">
-              <div class="card-body">
-                <h3 class="card-tittle">Alta Calidad</h3>
-                <p>
-                  Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                  Similique voluptatem commodi, aliquid qui excepturi hic nobis
-                  ad iste amet ducimus tempora porro fugiat repellendus odit
-                  quam voluptates deserunt neque nihil.
-                </p>
-                <button class="btn bg-primary text-white">Leer mas</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <!-- Creamos la seccion de productos -->
-    <section class="product">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div class="section-header text-center pb-5">
-              <h2>Productos</h2>
+        <!-- Implementamos las imagenes y el texto al carrusel  -->
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="img/laptops.jpg" class="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>Laptops</h5>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. In,
-                cumque
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aspernatur, temporibus fugit minima magnam, consequatur saepe
+                vel quos dolorem ab ut quisquam quasi a iusto distinctio iste
+                impedit, aliquid repudiandae?
+              </p>
+              <p><a href="laptops.html" class="btn btn-primary mt-3">Ver</a></p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/computadores.jpg" class="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>COMPUTADORAS</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aspernatur, temporibus fugit minima magnam, consequatur saepe
+                vel quos dolorem ab ut quisquam quasi a iusto distinctio iste
+                impedit, aliquid repudiandae?
+              </p>
+              <p><a href="pcs.html" class="btn btn-primary mt-3">Ver</a></p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img src="img/accesorios.png" class="d-block w-100" alt="" />
+            <div class="carousel-caption">
+              <h5>ACCESORIOS</h5>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio
+                aspernatur, temporibus fugit minima magnam, consequatur saepe
+                vel quos dolorem ab ut quisquam quasi a iusto distinctio iste
+                impedit, aliquid repudiandae?
+              </p>
+              <p>
+                <a href="accesorios.html" class="btn btn-primary mt-3">Ver</a>
               </p>
             </div>
           </div>
         </div>
+        <!-- Creamos botones para avanzar y retroceder los slides del carrusel -->
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselE1"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
 
-        <div class="row">
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/lapprod1.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">Lap 1</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="lap1.html" class="btn btn-primary">Saber mas</a>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselE1"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- Creamos la seccion de servicios -->
+      <section class="services">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-4 mb-3">
+              <div class="card text-white text-center bg-g pb-2">
+                <div class="card-body">
+                  <h3 class="card-tittle">Garantia Efectiva</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique voluptatem commodi, aliquid qui excepturi hic
+                    nobis ad iste amet ducimus tempora porro fugiat repellendus
+                    odit quam voluptates deserunt neque nihil.
+                  </p>
+                  <button class="btn bg-primary text-white">Leer mas</button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/lapprod2.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">Lap 2</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="lap2.html" class="btn btn-primary">Saber mas</a>
+            <div class="col-12 col-md-12 col-lg-4 mb-3">
+              <div class="card text-white text-center bg-r pb-2">
+                <div class="card-body">
+                  <h3 class="card-tittle">Alto Rendimiento</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique voluptatem commodi, aliquid qui excepturi hic
+                    nobis ad iste amet ducimus tempora porro fugiat repellendus
+                    odit quam voluptates deserunt neque nihil.
+                  </p>
+                  <button class="btn bg-primary text-white">Leer mas</button>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/pcprod2.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">PC 1</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="pc1.html" class="btn btn-primary">Saber mas</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/pcprod1.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">PC 2</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="pc2.html" class="btn btn-primary">Saber mas</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/accpro1.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">Accesorio 1</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="acc1.html" class="btn btn-primary">Saber mas</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/accpro2.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">Accesorio 2</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="acc2.html" class="btn btn-primary">Saber mas</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/accpro3.jpg" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">Accesorio 3</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="acc3.html" class="btn btn-primary">Saber mas</a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-3">
-            <div
-              class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
-            >
-              <div class="text-center">
-                <img src="img/accpro4.png" alt="" />
-              </div>
-              <div class="card-body">
-                <h5 class="card-tittle">Accesorio 4</h5>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                <a href="acc4.html" class="btn btn-primary">Saber mas</a>
+            <div class="col-12 col-md-12 col-lg-4 mb-3">
+              <div class="card text-white text-center bg-c pb-2">
+                <div class="card-body">
+                  <h3 class="card-tittle">Alta Calidad</h3>
+                  <p>
+                    Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                    Similique voluptatem commodi, aliquid qui excepturi hic
+                    nobis ad iste amet ducimus tempora porro fugiat repellendus
+                    odit quam voluptates deserunt neque nihil.
+                  </p>
+                  <button class="btn bg-primary text-white">Leer mas</button>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-    </section>
+      </section>
+      <!-- Creamos la seccion de productos -->
+      <section class="product">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-12">
+              <div class="section-header text-center pb-5">
+                <h2>Productos</h2>
+                <p>
+                  Lorem ipsum dolor sit, amet consectetur adipisicing elit. In,
+                  cumque
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/lapprod1.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">Lap 1</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="lap1.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/lapprod2.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">Lap 2</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="lap2.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/pcprod2.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">PC 1</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="pc1.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/pcprod1.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">PC 2</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="pc2.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/accpro1.jpg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">Accesorio 1</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="acc1.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/accpro2.jpg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">Accesorio 2</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="acc2.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/accpro3.jpg" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">Accesorio 3</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="acc3.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-12 col-lg-3">
+              <div
+                class="card bg-light shadow-sm border-0 px-2 py-3 mb-4 text-center"
+              >
+                <div class="text-center">
+                  <img src="img/accpro4.png" alt="" />
+                </div>
+                <div class="card-body">
+                  <h5 class="card-tittle">Accesorio 4</h5>
+                  <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                  </p>
+                  <a href="acc4.html" class="btn btn-primary">Saber mas</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
     <!-- Creamos la seccion de iconos -->
     <section class="section-icons">
       <div class="container">
