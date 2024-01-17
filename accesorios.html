@@ -183,37 +183,69 @@
       </div>
     </section>
 
-    <section class="section-icons">
-      <div class="container">
+    <section class="contact">
+      <div class="container mb-3 mb-lg-5">
         <div class="row">
-          <div class="col-12 col-md-12 col-lg-3 box-icons">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-airplane"></i>
-              <div class="ms-4">
-                <h3>Envio gratis</h3>
-                <p>Lorem rum sapiente ea, ab beatae laudantium minus.</p>
-              </div>
+          <div class="col-md-12">
+            <div class="section-header text-center pb-2 pb-lg-5">
+              <h2>Contacto</h2>
+              <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque
+                deleniti dolor illo dolorem repellendus at reiciendis ullam,
+                molestias, corporis temporibus quasi officia.
+              </p>
             </div>
           </div>
+        </div>
 
-          <div class="col-12 col-md-12 col-lg-4 box-icons">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-cash-coin"></i>
-              <div class="ms-4">
-                <h3>Medios de Pago</h3>
-                <p>Lorem rum sapiente ea, ab beatae laudantium minus.</p>
+        <div class="d-flex justify-content-center">
+          <div class="col-12 col-md-12 col-lg-6 pt-4 pb-4">
+            <!-- Añadiendo form -->
+            <form
+              method="post"
+              action="/send/"
+              class="bg-light p-4 m-auto shadow-sm"
+            >
+              <div class="row">
+                <div class="cold-md-12">
+                  <div class="mb-3">
+                    <input
+                      class="form-control"
+                      placeholder="Nombre"
+                      type="text"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="cold-md-12">
+                  <div class="mb-3">
+                    <input
+                      class="form-control"
+                      placeholder="Email"
+                      type="email"
+                      required
+                    />
+                  </div>
+                </div>
+                <div class="cold-md-12">
+                  <div class="mb-3">
+                    <textarea
+                      class="form-control"
+                      placeholder="Mensaje"
+                      rows="3"
+                      required
+                    >
+                    </textarea>
+                  </div>
+                </div>
+                <button
+                  class="btn btn-primary btn-lg btn-block mt-3"
+                  type="button"
+                >
+                  Enviar
+                </button>
               </div>
-            </div>
-          </div>
-
-          <div class="col-12 col-md-12 col-lg-4 box-icons">
-            <div class="d-flex align-items-center">
-              <i class="bi bi-gift-fill"></i>
-              <div class="ms-4">
-                <h3>Regalo</h3>
-                <p>Lorem rum sapiente ea, ab beatae laudantium minus.</p>
-              </div>
-            </div>
+            </form>
           </div>
         </div>
       </div>
