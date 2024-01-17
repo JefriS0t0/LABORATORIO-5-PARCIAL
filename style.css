@@ -1,5 +1,8 @@
+
+/* Importamos una fuente desde google fonts */
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
+/* Estilizamos el texto todo el documento */
 * {
   font-family: "Poppins", sans-serif;
 }
@@ -60,6 +63,7 @@ footer {
   padding: 30px 0;
 }
 
+/* Ponemos fondos de imagenes difuminadas  */
 .bg-g {
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url(img/garantia.jpg);
@@ -130,7 +134,7 @@ footer {
   font-size: 50px;
   font-weight: 650;
 }
-
+/* Usamos un estilo diferente cuando los pixeles de la pantalla bajen */
 @media (max-width: 767px) {
   .navbar a img {
     margin-left: 0px;
