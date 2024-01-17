@@ -3,32 +3,29 @@
 * {
   font-family: "Poppins", sans-serif;
 }
-a .navbar-brand{
-    width:"100px";
-    height:"100px";
+a .navbar-brand {
+  width: "100px";
+  height: "100px";
 }
-.carousel-inner img{
-    height: 800px;
-    
+.carousel-inner img {
+  height: 800px;
 }
-.navbar{
-  background-color: rgba(141, 166, 206,0.5);
+.navbar {
+  background-color: rgba(141, 166, 206, 0.5);
 }
 
-footer{
-  background-color: rgba(141, 166, 206,0.5);
+footer {
+  background-color: rgba(141, 166, 206, 0.5);
 }
-.navbar a img{
-  margin-left:400px;
-
+.navbar a img {
+  margin-left: 400px;
 }
 .navbar a {
   font-weight: 800;
   font-size: 20px;
 }
-.navbar ul{
-    margin-right:500px;
-  
+.navbar ul {
+  margin-right: 500px;
 }
 .carousel-item {
   min-height: 400px;
@@ -50,7 +47,7 @@ footer{
   font-size: 18px;
 }
 .carousel-inner::before {
-  content: '';
+  content: "";
   position: absolute;
   width: 100%;
   height: 100%;
@@ -87,16 +84,14 @@ footer{
   background-size: cover;
 }
 
-
 .product {
-  padding-bottom: 90px ;
-  padding-top: 2px;;
+  padding-bottom: 90px;
+  padding-top: 2px;
   text-align: center;
 }
 
 .product row {
   font-size: 200px;
-  
 }
 
 .product h2 {
@@ -131,18 +126,14 @@ footer{
   padding-bottom: 40px;
 }
 
-
-
 .contact h2 {
-   font-size: 50px;
-   font-weight: 650;
+  font-size: 50px;
+  font-weight: 650;
 }
 
 @media (max-width: 767px) {
-
-  .navbar a img{
-    margin-left:0px;
-  
+  .navbar a img {
+    margin-left: 0px;
   }
 
   .carousel-item {
@@ -167,17 +158,14 @@ footer{
     font-size: 16px;
   }
 
-  .services{
+  .services {
     padding: 30px 0;
   }
-  .product{
+  .product {
     padding: 30px 0 0 0;
   }
 
   .banner {
     margin-bottom: 30px;
   }
-
- 
 }
-
